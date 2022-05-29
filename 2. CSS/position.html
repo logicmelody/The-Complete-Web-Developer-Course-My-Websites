@@ -30,14 +30,15 @@
 			width: 200px;
 			height: 200px;
 			z-index: 1;
-			/* margin: 50px 100px 230px 100px; */
-			margin-left: 400px;
+			position: fixed;
+			left: 100px;
+			top: 50px;
 		}
 
 		.greenbox {
 			background-color: #295715;
 			width: 300px;
-			height: 200px;
+			height: 500px;
 			z-index: 2;
 		}
 	</style>
@@ -46,6 +47,18 @@
 <body>
 	<div class="purplebox">
 		<p class="large">This is some text.</p>
+	</div>
+
+	<div class="greenbox">
+		<p id="green" class="large">This is some more text.</p>
+	</div>
+
+	<div class="greenbox">
+		<p id="green" class="large">This is some more text.</p>
+	</div>
+
+	<div class="greenbox">
+		<p id="green" class="large">This is some more text.</p>
 	</div>
 
 	<div class="greenbox">
