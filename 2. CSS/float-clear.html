@@ -29,17 +29,22 @@
 			background-color: #B404AE;
 			width: 200px;
 			height: 200px;
-			z-index: 1;
-			position: fixed;
-			left: 100px;
-			top: 50px;
+			float: left;
 		}
 
 		.greenbox {
 			background-color: #295715;
 			width: 300px;
-			height: 500px;
-			z-index: 2;
+			height: 100px;
+			float: right;
+		}
+
+		.floatleft {
+			float: left;
+		}
+
+		.clear {
+			clear: both;
 		}
 	</style>
 </head>
@@ -53,19 +58,9 @@
 		<p id="green" class="large">This is some more text.</p>
 	</div>
 
-	<div class="greenbox">
-		<p id="green" class="large">This is some more text.</p>
-	</div>
+	<div class="clear"></div>
 
-	<div class="greenbox">
-		<p id="green" class="large">This is some more text.</p>
-	</div>
-
-	<div class="greenbox">
-		<p id="green" class="large">This is some more text.</p>
-	</div>
-
-	<p>The third <span class="underline large bold">word</span> in this paragraph is underlined.</p>
+	<p class="floatleft">The third <span class="underline large bold">word</span> in this paragraph is underlined.</p>
 </body>
 
 </html>
