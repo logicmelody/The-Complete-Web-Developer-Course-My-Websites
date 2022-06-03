@@ -22,7 +22,7 @@
 		}
 
 		.fixedwidth {
-			width: 1050px;
+			width: 1150px;
 			margin: 0 auto;
 		}
 
@@ -51,13 +51,28 @@
 		}
 
 		#topmenudiv ul {
-			margin-top: 10px;
+			margin: 0;
+			padding: 0;
 		}
 
 		#topmenudiv li {
 			list-style: none;
 			font-weight: bold;
 			font-size: 0.9em;
+			border-right: 1px solid #990000;
+			height: 100%;
+			padding: 10px 20px 12px 20px;
+			float: left;
+		}
+
+		#searchdiv {
+			float: left;
+			padding: 5px 0 0 10px;
+		}
+
+		#searchdiv input {
+			height: 25px;
+			border: none;
 		}
 	</style>
 </head>
@@ -79,7 +94,18 @@
 				<div id="topmenudiv">
 					<ul>
 						<li>News</li>
+						<li>Sport</li>
+						<li>Wheather</li>
+						<li>Wheather</li>
+						<li>IPlayer</li>
+						<li>TV</li>
+						<li>Radio</li>
+						<li>More...</li>
 					</ul>
+				</div>
+
+				<div id="searchdiv">
+					<input type="text" />
 				</div>
 			</div>
 		</div>
